@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+  </head>
+  <style>
+    body {
+      background-color: black;
+      padding-top: 60px;
+    }
+    .main-wrapper {
+      width: 56%;
+      height: 400px;
+      background-color: white;
+      padding: 10px;
+      margin: auto;
+      display: flex;
+    }
+    .col-1 {
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+    }
+    .box-1 {
+      height: 150px;
+    }
+    .box-1 img {
+      height: 100%;
+      width: 100%;
+    }
+    .box-2 {
+      display: flex;
+    }
+    .box-2 .news {
+      margin-left: 5px;
+    }
+    .para {
+      background-color: #2d5986;
+      padding: 15px;
+      padding-top: 8px;
+      color: white;
+      margin-top: 0px;
+      /* margin-bottom: 20px; */
+    }
+    .col-2 {
+      width: 50%;
+      margin-left: 20px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    @media only screen and (max-width: 1324px) {
+      .main-wrapper {
+        display: block;
+        height: 520px;
+      }
+      .col-1 {
+        width: 100%;
+      }
+      .col-2 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+      }
+      .col-1 .box-2 {
+        display: none;
+      }
+      .col-2 .box-2 {
+        width: 50%;
+      }
+      div.col-2 div:first-child {
+        margin-top: 10px;
+      }
+    }
+    @media only screen and (max-width: 700px) {
+      .main-wrapper {
+        display: block;
+        height: 60%;
+      }
+      .col-1 {
+        width: 100%;
+      }
+      .col-2 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+      }
+      .col-2 .box-2 {
+        width: 90%;
+      }
+    }
+  </style>
+  <body>
+    <div class="main-wrapper">
+      <div class="col-1">
+        <div class="box-1">
+          <img src="./trump.jpg" />
+        </div>
+        <div class="para">
+          <p style="font-size: 20px; margin: 0px">
+            Ahmedabad joint rally with Trump will<br />be historic, says Modi.
+          </p>
+          <p
+            style="
+              font-size: 10px;
+              font-family: system-ui;
+              font-weight: bolder;
+              margin-bottom: 2px;
+              margin-top: 3px;
+            "
+          >
+            KALLOLL BHATERJEE
+          </p>
+          <p
+            style="
+              font-size: 10px;
+              font-family: system-ui;
+              font-weight: bolder;
+              margin-top: 2px;
+              margin-bottom: 3px;
+            "
+          >
+            SUHASINI HAIDER
+          </p>
+          <p style="margin-top: 0px; margin-top: 8px; font-size: 12px">
+            U.S President to visit Sabarmati Ashram ahead of 'Namaste Trump'<br />event.
+          </p>
+        </div>
+        <div class="box-2">
+          <img
+            src="./t_1.jpg"
+            style="height: 90px; width: 90px; margin-top: 10px"
+          />
+          <div class="news">
+            <p
+              style="
+                font-size: 10px;
+                color: #2d5986;
+                font-weight: bold;
+                font-family: system-ui;
+                margin-top: 12px;
+                margin-bottom: 0px;
+              "
+            >
+              NATIONAL
+            </p>
+            <p style="font-size: 14.5px; margin-top: 4px">
+              Ahmedabad glitters to welcome Donald Trump.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-2">
+        <div class="box-2">
+          <img
+            src="./t_1.jpg"
+            style="height: 90px; width: 90px; margin-top: 0px"
+          />
+          <div class="news">
+            <p
+              style="
+                font-size: 10px;
+                color: #2d5986;
+                font-weight: bold;
+                font-family: system-ui;
+                margin-top: 12px;
+                margin-bottom: 0px;
+              "
+            >
+              NATIONAL
+            </p>
+            <p style="font-size: 14.5px; margin-top: 4px">
+              Ahmedabad glitters to welcome Donald Trump.
+            </p>
+          </div>
+        </div>
+        <div class="box-2">
+          <img
+            src="./t_1.jpg"
+            style="height: 90px; width: 90px; margin-top: 10px"
+          />
+          <div class="news">
+            <p
+              style="
+                font-size: 10px;
+                color: #2d5986;
+                font-weight: bold;
+                font-family: system-ui;
+                margin-top: 12px;
+                margin-bottom: 0px;
+              "
+            >
+              NATIONAL
+            </p>
+            <p style="font-size: 14.5px; margin-top: 4px">
+              Ahmedabad glitters to welcome Donald Trump.
+            </p>
+          </div>
+        </div>
+        <div class="box-2">
+          <img
+            src="./t_1.jpg"
+            style="height: 90px; width: 90px; margin-top: 10px"
+          />
+          <div class="news">
+            <p
+              style="
+                font-size: 10px;
+                color: #2d5986;
+                font-weight: bold;
+                font-family: system-ui;
+                margin-top: 12px;
+                margin-bottom: 0px;
+              "
+            >
+              NATIONAL
+            </p>
+            <p style="font-size: 14.5px; margin-top: 4px">
+              Ahmedabad glitters to welcome Donald Trump.
+            </p>
+          </div>
+        </div>
+        <div class="box-2">
+          <img
+            src="./t_1.jpg"
+            style="height: 90px; width: 90px; margin-top: 10px"
+          />
+          <div class="news">
+            <p
+              style="
+                font-size: 10px;
+                color: #2d5986;
+                font-weight: bold;
+                font-family: system-ui;
+                margin-top: 12px;
+                margin-bottom: 0px;
+              "
+            >
+              NATIONAL
+            </p>
+            <p style="font-size: 14.5px; margin-top: 4px">
+              Ahmedabad glitters to welcome Donald Trump.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
